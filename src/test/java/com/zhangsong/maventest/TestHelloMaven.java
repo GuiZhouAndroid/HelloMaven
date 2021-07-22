@@ -13,7 +13,6 @@ import org.junit.Test;
 public class TestHelloMaven {
     @Test
     public void testAdd() {
-        System.out.println("maven junit 执行了testAdd()！123ma");
         HelloMaven helloMaven = new HelloMaven();
         int testAddValue = helloMaven.add(100, 200);
         //验证100+200是不是300 ,junit提供的方法，对比结果的
