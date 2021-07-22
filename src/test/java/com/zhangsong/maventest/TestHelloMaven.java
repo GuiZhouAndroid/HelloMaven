@@ -13,6 +13,7 @@ import org.junit.Test;
 public class TestHelloMaven {
     @Test
     public void testAdd() {
+        System.out.println("恢复");
         HelloMaven helloMaven = new HelloMaven();
         int testAddValue = helloMaven.add(100, 200);
         //验证100+200是不是300 ,junit提供的方法，对比结果的
